@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Defining Header
+HEADER="""
+openwrt_update.sh Copyright (C) 2025 Mr. Steel Rat
+
+Easily update, upgrade up your OpenWrt system with this bash script.
+"""
+
+# Print Header
+echo "$HEADER"
+
 # Updating the package list
 opkg update
 
